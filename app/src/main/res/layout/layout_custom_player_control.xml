@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/playerControlContainer"
+    style="@style/MatchParent">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:background="@drawable/shape_fill_round_rect_yellow_with_black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/channelLogoImageView"
+        android:layout_width="64dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        tools:src="@drawable/ic_baseline_live_tv_24" />
+
+    <TextView
+        android:id="@+id/channelNameTextView"
+        style="@style/Wrap.Width0dp"
+        android:layout_marginBottom="5dp"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/programLinearProgressIndicator"
+        app:layout_constraintEnd_toEndOf="@+id/programLinearProgressIndicator"
+        app:layout_constraintStart_toStartOf="@+id/programLinearProgressIndicator"
+        tools:text="1 BAND 4K" />
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/programLinearProgressIndicator"
+        style="@style/Wrap.Width0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="50dp"
+        android:max="100"
+        app:indicatorColor="@color/border_color"
+        app:layout_constraintBottom_toBottomOf="@+id/view2"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintStart_toEndOf="@+id/channelLogoImageView"
+        app:layout_constraintTop_toTopOf="@+id/view2"
+        tools:progress="40" />
+
+    <TextView
+        android:id="@+id/currentProgramTextView"
+        style="@style/Wrap"
+        android:layout_width="300dp"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:maxLength="30"
+        android:maxLines="1"
+        app:layout_constraintStart_toStartOf="@+id/programLinearProgressIndicator"
+        app:layout_constraintTop_toBottomOf="@+id/programLinearProgressIndicator"
+        tools:text="Actual: Matrix 1" />
+
+    <TextView
+        android:id="@+id/nextProgramTextView"
+        style="@style/Wrap"
+        android:layout_width="300dp"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:maxLength="30"
+        android:maxLines="1"
+        app:layout_constraintEnd_toEndOf="@+id/programLinearProgressIndicator"
+        app:layout_constraintTop_toBottomOf="@+id/programLinearProgressIndicator"
+        tools:text="Next: Matrix 2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

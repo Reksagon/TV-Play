@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TV-Play</string>
+    <string name="all">TODOS</string>
+    <string name="submit">Enviar</string>
+    <string name="update">Atualizar</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="logout">Sair</string>
+    <string name="none">nenhum</string>
+    <string name="track_selection_title">track_selection_title</string>
+
+    <string name="no_internet_connection">Sem conexão com a Internet</string>
+    <string name="no_server_connection">Erro de conexão do servidor</string>
+
+    <!-- SignUp   -->
+    <string name="registration_register_with_email">INSCREVA-SE COM E-MAIL</string>
+    <string name="registration_register_with_mobile_number">INSCREVA-SE COM NÚMERO DE CELULAR</string>
+    <string name="registration_hint">Insira seu endereço de e-mail ou número de celular e clique em Enviar código. Um código de verificação de 4 dígitos será enviado para sua caixa de entrada de e-mail ou telefone. Confira e insira o código aqui. Em seguida, defina a senha de sua preferência. Em caso de problema, entre em contato com info.redplay@gmail.com Você pode ter sua conta de número de telefone na Versão 2.2.0!</string>
+    <string name="registration_account">E-mail</string>
+    <string name="registration_new_password">Nova senha</string>
+    <string name="registration_submit">Enviar</string>
+    <string name="registration_return">Retornar</string>
+    <string name="registration_verification_code">Código de verificação</string>
+    <string name="registration_send_code">Enviar código</string>
+    <string name="registration_create_a_new_account">Criar uma nova conta</string>
+    <string name="registration_confirm_password">Confirmar senha</string>
+
+    <!-- SignIn   -->
+    <string name="login_password">Senha</string>
+    <string name="login_sign_in">Login</string>
+    <string name="login_create_a_new_account"><u>Criar uma nova conta</u></string>
+    <string name="login_forgot_password"><u>Esqueceu a senha?</u></string>
+
+    <!-- Player -->
+    <string name="player_menu_item_account">Minha conta</string>
+    <string name="player_menu_item_channel_list">Lista de canais</string>
+    <string name="player_menu_item_search">Pesquisar</string>
+    <string name="player_menu_item_favorite">Favorito</string>
+    <string name="player_menu_item_subscribe_list">Lista de inscrições</string>
+    <string name="player_menu_item_info">Informações</string>
+    <string name="player_menu_item_lock">Bloquear</string>
+    <string name="player_menu_item_mobile">Aplicativo para dispositivos móveis</string>
+    <string name="player_menu_item_notification">Notificação</string>
+    <string name="player_continue_watching">Continuar assistindo?</string>
+    <string name="player_current_played">Atual: %1$s</string>
+    <string name="player_next_played">Próximo: %1$s</string>
+    <string name="player_free_trial_period">Período de teste gratuito</string>
+    <string name="player_want_exit">Tem certeza de que deseja sair?</string>
+
+    <string name="my_account_subscription_status">Status da assinatura</string>
+    <string name="my_account_subscription_status_with_colon">Status da assinatura:</string>
+    <string name="my_account_subscription_end_date">Data de término da assinatura</string>
+    <string name="my_account_subscription_end_date_with_colon">Data de término da assinatura:</string>
+    <string name="my_account_user_email">E-mail do usuário</string>
+    <string name="my_account_user_email_with_colon">Conta:</string>
+    <string name="my_account_subscription_renew">Ativar novo cartão</string>
+    <string name="my_account_subscription_logout">Sair</string>
+    <string name="my_account_activation_code">Código de ativação:</string>
+    <string name="my_account_enter_your_activation_code">Digite seu código de ativação</string>
+
+    <string name="info_user_id">Versão do aplicativo:</string>
+    <string name="info_firmware_version">Versão do firmware:</string>
+    <string name="info_check_update">Atualização de verificação</string>
+    <string name="info_old_version">Versão antiga:</string>
+    <string name="info_new_version">Nova versão:</string>
+    <string name="info_you_using_latest_version">Você está usando a versão mais recente</string>
+    <string name="info_new_version_available">Nova versão disponível</string>
+    <string name="info_download">Baixar</string>
+    <string name="info_downloading_apk">Baixando apk (%1$d%%)</string>
+    <string name="info_download_preparing">Conectando ao servidor…</string>
+
+    <string name="channels_add_to_favorites">Adicionar aos favoritos</string>
+    <string name="channels_remove_from_favorites">Remover do favorito</string>
+    <string name="channels_lock">Bloquear</string>
+    <string name="channels_unlock">Desbloquear</string>
+    <string name="channels_enter_password">Digite a senha:</string>
+    <string name="channels_enter_a_search_term">Insira um termo de pesquisa</string>
+    <string name="channel_list_favorite_hint">Para adicionar um canal a esta lista, vá para a \"Lista de Canais\", selecione o canal desejado e mantenha pressionado o botão \"OK\" no controle remoto por alguns de segundos.</string>
+
+    <string name="epg_start_to_end_time">%1$s - %2$s</string>
+    <string name="epg_playing">Jogando</string>
+    <string name="epg_duration">Duração:</string>
+    <string name="epg_program">Programa:</string>
+
+    <string name="forgot_password_title">Esqueci a senha</string>
+    <string name="forgot_password_reset_instructions">As instruções de redefinição de senha foram enviadas para seu e-mail.</string>
+
+    <string name="dialog_active_subscription_subscription_is_not_active">A assinatura não está ativa!</string>
+    <string name="dialog_active_subscription_activate_your_subscription">Ative sua assinatura. Digite o código de ativação:</string>
+    <string name="dialog_active_subscription_error">Erro ao ativar a assinatura: %1$s</string>
+
+    <string name="main_permissions_not_granted">Permissões não concedidas!</string>
+    <string name="main_permission_explain">Para poder usar o aplicativo, você precisa conceder permissões para ler e gravar no armazenamento do dispositivo.\nVá para as configurações do aplicativo, selecione a seção "Permissões" e conceda a leitura do aplicativo e acesso de gravação ao armazenamento.</string>
+    <string name="main_permission_in_settings">Nas configurações</string>
+    <string name="server_unavailable">Servidor indisponível, tente novamente mais tarde</string>
+
+</resources>

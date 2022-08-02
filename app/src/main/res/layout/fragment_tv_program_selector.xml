@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/MatchParent">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/categoryFragmentContainer"
+            android:name="com.tevibox.tvplay.presentation.screen.menu.CategoryListFragment"
+            style="@style/Tall"
+            android:layout_width="250dp"
+            android:background="@color/menu_transparent_background_color"
+            android:nextFocusRight="@id/channelFragmentContainer"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="gone" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/channelFragmentContainer"
+            android:name="com.tevibox.tvplay.presentation.screen.menu.ChannelListFragment"
+            style="@style/Tall.Width0dp"
+            android:layout_width="300dp"
+            android:background="@color/menu_transparent_background_color"
+            android:nextFocusRight="@id/epgFragmentContainer"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/categoryFragmentContainer"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/epgHintImageView"
+            style="@style/Wrap.Height0dp"
+            android:background="@color/menu_transparent_background_color"
+            android:clickable="false"
+            android:focusable="false"
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/channelFragmentContainer"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/epgFragmentContainer"
+            android:name="com.tevibox.tvplay.presentation.screen.menu.channel.EpgListFragment"
+            style="@style/Tall.Width0dp"
+            android:background="@color/menu_transparent_background_color"
+            android:nextFocusLeft="@id/channelFragmentContainer"
+            android:paddingEnd="10dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/channelFragmentContainer"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="RtlSymmetry"
+            tools:visibility="visible" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

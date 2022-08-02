@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../.gradle/caches/transforms-3/67e48c05e0b57fa0331354cf76219a18/transformed/jetified-exoplayer-ui-2.16.1/res/drawable-anydpi-v21/exo_icon_pause.xml" value="0.32342342342342345" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/dialog_activate_subscription.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/dialog_app_available.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/dialog_linear_progress.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/dialog_lock_channel.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/dialog_renew_subscription.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/dialog_toast.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/dialog_transparent_progress.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/dialog_update_app.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/fragment_category_list.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/fragment_channel_list.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/fragment_epg_list.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/fragment_favorite_container.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/fragment_forgot_password.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/fragment_info_container.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/fragment_menu.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/fragment_my_account_container.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/fragment_my_account_menu.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/fragment_player.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/fragment_sign_in.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/fragment_sign_up.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/fragment_tv_program_selector.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/layout_channel_categories_item.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/layout_channel_item.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/layout_custom_player_control.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/layout_menu_content_constraint.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/layout_menu_item.xml" value="0.25" />
+        <entry key="..\:/android/tv-play-dev/app/src/main/res/layout/track_selection_dialog.xml" value="0.25" />
+        <entry key="app/src/main/res/drawable-v24/ic_banner_foreground.xml" value="0.1965" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.192" />
+        <entry key="app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.22239583333333332" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.1965" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.1965" />
+        <entry key="app/src/main/res/drawable/ic_baseline_error_outline_24.xml" value="0.33783783783783783" />
+        <entry key="app/src/main/res/drawable/ic_baseline_error_outline_24_black_red.xml" value="0.2765" />
+        <entry key="app/src/main/res/drawable/ic_baseline_error_outline_24_new.xml" value="0.33783783783783783" />
+        <entry key="app/src/main/res/drawable/ic_baseline_live_tv_24.xml" value="0.1485" />
+        <entry key="app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.2765" />
+        <entry key="app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.2" />
+        <entry key="app/src/main/res/drawable/ic_baseline_star_outline_24.xml" value="0.1965" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1965" />
+        <entry key="app/src/main/res/drawable/round_rect_black.xml" value="0.22552083333333334" />
+        <entry key="app/src/main/res/drawable/selector_button.xml" value="0.256" />
+        <entry key="app/src/main/res/drawable/selector_edit_text.xml" value="0.256" />
+        <entry key="app/src/main/res/drawable/selector_textview.xml" value="0.2" />
+        <entry key="app/src/main/res/drawable/shape_fill_round_rect_black.xml" value="0.1965" />
+        <entry key="app/src/main/res/drawable/shape_fill_round_rect_yellow_with_black.xml" value="0.256" />
+        <entry key="app/src/main/res/drawable/shape_round_fill_rect_red.xml" value="0.2765" />
+        <entry key="app/src/main/res/drawable/shape_round_fill_rect_yellow.xml" value="0.2765" />
+        <entry key="app/src/main/res/drawable/shape_round_rect_black.xml" value="0.22552083333333334" />
+        <entry key="app/src/main/res/drawable/shape_round_rect_for_edit_text.xml" value="0.1425" />
+        <entry key="app/src/main/res/drawable/shape_round_rect_for_focused_button.xml" value="0.1425" />
+        <entry key="app/src/main/res/drawable/shape_round_rect_for_focused_edit_text.xml" value="0.1425" />
+        <entry key="app/src/main/res/drawable/shape_round_rect_for_pressed_button.xml" value="0.1965" />
+        <entry key="app/src/main/res/drawable/shape_round_rect_for_unfocused_edit_text.xml" value="0.1425" />
+        <entry key="app/src/main/res/drawable/shape_round_rect_red.xml" value="0.31145833333333334" />
+        <entry key="app/src/main/res/drawable/shape_round_rect_yellow.xml" value="0.2765" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/dialog_activate_subscription.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/dialog_app_available.xml" value="0.536" />
+        <entry key="app/src/main/res/layout/dialog_linear_progress.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/dialog_lock_channel.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/dialog_renew_subscription.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/dialog_toast.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/dialog_transparent_progress.xml" value="0.4708333333333333" />
+        <entry key="app/src/main/res/layout/dialog_update_app.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/exo_player_control_view.xml" value="0.2954954954954955" />
+        <entry key="app/src/main/res/layout/fragment_category_list.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_channel_list.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_epg_list.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_favorite_container.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_forgot_password.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_info_container.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_main.xml" value="0.19427083333333334" />
+        <entry key="app/src/main/res/layout/fragment_menu.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_my_account_container.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_my_account_menu.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_my_account_subscrption_status.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_player.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_sign_up.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_tv_program_selector.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_tv_programm_selector.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/layout_channel_categories_item.xml" value="0.43620414673046254" />
+        <entry key="app/src/main/res/layout/layout_channel_epgs_item.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/layout_channel_item.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/layout_custom_player_control.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/layout_menu_content_constraint.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/layout_menu_item.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/layout_player_menu.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/track_selection_dialog.xml" value="0.35225225225225226" />
+        <entry key="app/src/main/res/menu/channels_menu.xml" value="0.3261261261261261" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_banner.xml" value="0.18" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2115" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2" />
+        <entry key="app/src/main/res/xml/paths.xml" value="0.12604166666666666" />
+        <entry key="app/src/main/res/xml/provider_paths.xml" value="0.49466666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

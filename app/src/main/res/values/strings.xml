@@ -1,0 +1,100 @@
+<resources>
+
+    <string name="app_name">TV-Play</string>
+    <string name="all">ALL</string>
+    <string name="submit">Submit</string>
+    <string name="update">Update</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout">Logout</string>
+    <string name="none">none</string>
+    <string name="track_selection_title">track_selection_title</string>
+
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="no_server_connection">Server connection error</string>
+
+    <!--  SignUp  -->
+    <string name="registration_register_with_email">REGISTER WITH EMAIL</string>
+    <string name="registration_register_with_mobile_number">REGISTER WITH MOBILE NUMBER</string>
+    <string name="registration_hint">Insert your email address or cellphone number and click on Send Code. A 4-digit verification code will be sent to your email inbox or phone. Check it and insert the code here. Then, define the password of your preference. In case of problem, please contact info.redplay@gmail.com You can have your phone number account in Version 2.2.0!</string>
+    <string name="registration_account">E-mail</string>
+    <string name="registration_new_password">New Password</string>
+    <string name="registration_submit">Submit</string>
+    <string name="registration_return">Return</string>
+    <string name="registration_verification_code">Verification Code</string>
+    <string name="registration_send_code">Send Code</string>
+    <string name="registration_create_a_new_account">Create a new account</string>
+    <string name="registration_confirm_password">Confirm Password</string>
+
+    <!--  SignIn  -->
+    <string name="login_password">Password</string>
+    <string name="login_sign_in">Login</string>
+    <string name="login_create_a_new_account"><u>Create a new account</u></string>
+    <string name="login_forgot_password"><u>Forgot Password?</u></string>
+
+    <!--  Player  -->
+    <string name="player_menu_item_account">My Account</string>
+    <string name="player_menu_item_channel_list">Channel List</string>
+    <string name="player_menu_item_search">Search</string>
+    <string name="player_menu_item_favorite">Favorite</string>
+    <string name="player_menu_item_subscribe_list">Subscribe List</string>
+    <string name="player_menu_item_info">Info</string>
+    <string name="player_menu_item_lock">Lock</string>
+    <string name="player_menu_item_mobile">Mobile App</string>
+    <string name="player_menu_item_notification">Notification</string>
+    <string name="player_continue_watching">Continue watching?</string>
+    <string name="player_current_played">Current: %1$s</string>
+    <string name="player_next_played">Next: %1$s</string>
+    <string name="player_free_trial_period">Free Trial Period</string>
+    <string name="player_want_exit">Are you sure you want to exit?</string>
+
+    <string name="my_account_subscription_status">Subscription Status</string>
+    <string name="my_account_subscription_status_with_colon">Subscription status:</string>
+    <string name="my_account_subscription_end_date">Subscription end date</string>
+    <string name="my_account_subscription_end_date_with_colon">Subscription end date:</string>
+    <string name="my_account_user_email">User email</string>
+    <string name="my_account_user_email_with_colon">Account:</string>
+    <string name="my_account_subscription_renew">Activate new card</string>
+    <string name="my_account_subscription_logout">Logout</string>
+    <string name="my_account_activation_code">Activation code:</string>
+    <string name="my_account_enter_your_activation_code">Enter your activation code</string>
+
+    <string name="info_user_id">App version:</string>
+    <string name="info_firmware_version">Firmware version:</string>
+    <string name="info_check_update">Check update</string>
+    <string name="info_old_version">Old version:</string>
+    <string name="info_new_version">New version:</string>
+    <string name="info_you_using_latest_version">You are using the latest version</string>
+    <string name="info_new_version_available">New version available</string>
+    <string name="info_download">Download</string>
+    <string name="info_downloading_apk">Downloading apk (%1$d%%)</string>
+    <string name="info_download_preparing">Connecting to the server…</string>
+
+    <string name="channels_add_to_favorites">Add to favorite</string>
+    <string name="channels_remove_from_favorites">Remove from favorite</string>
+    <string name="channels_lock">Lock</string>
+    <string name="channels_unlock">Unlock</string>
+    <string name="channels_enter_password">Enter password:</string>
+    <string name="channels_enter_a_search_term">Enter a search term</string>
+    <string name="channel_list_favorite_hint">In order to add a channel to this list, please go to the \"Channel List\", select the desired channel and hold down the \"OK\" button on the remote control for a couple of seconds.</string>
+
+    <string name="epg_start_to_end_time">%1$s - %2$s</string>
+    <string name="epg_playing">Playing</string>
+    <string name="epg_duration">Duration:</string>
+    <string name="epg_program">Program:</string>
+
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="forgot_password_reset_instructions">Password reset instructions have been sent to your email.</string>
+
+    <string name="dialog_active_subscription_subscription_is_not_active">Subscription isn\'t active!</string>
+    <string name="dialog_active_subscription_activate_your_subscription">Activate your subscription. Enter activation code:</string>
+    <string name="dialog_active_subscription_error">Error activating subscription: %1$s</string>
+
+    <string name="main_permissions_not_granted">Permissions not granted!</string>
+    <string name="main_permission_explain">In order to be able to use the application, you need to grant permissions to read and write to the device storage.\nGo to the application settings, select the "Permissions" section and grant the application read and write access to the storage.</string>
+    <string name="main_permission_in_settings">In settings</string>
+    <string name="server_unavailable">Server unavailable, please try again later</string>
+
+</resources>

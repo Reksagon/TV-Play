@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        style="@style/MatchParent"
+        android:background="@color/menu_transparent_background_color"
+        tools:context=".presentation.screen.MainActivity">
+
+        <androidx.constraintlayout.widget.ConstraintLayout style="@style/MatchParent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/content"
+                style="@style/MatchParent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/labelAccountTextView"
+                    style="@style/Wrap"
+                    android:layout_margin="@dimen/menu_top_margin"
+                    android:text="@string/my_account_user_email_with_colon"
+                    android:textAppearance="@style/BoldTextAppearance"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/accountTextView"
+                    style="@style/Wrap.Width0dp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="end"
+                    app:layout_constraintBottom_toBottomOf="@+id/labelAccountTextView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/labelAccountTextView"
+                    app:layout_constraintTop_toTopOf="@+id/labelAccountTextView"
+                    tools:text="admin@mail.com" />
+
+                <TextView
+                    android:id="@+id/labelStatusTextView"
+                    style="@style/Wrap"
+                    android:layout_margin="@dimen/menu_top_margin"
+                    android:text="@string/my_account_subscription_status_with_colon"
+                    android:textAppearance="@style/BoldTextAppearance"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/labelAccountTextView" />
+
+                <TextView
+                    android:id="@+id/statusTextView"
+                    style="@style/Wrap.Width0dp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="end"
+                    android:textColor="@color/red_color"
+                    app:layout_constraintBottom_toBottomOf="@+id/labelStatusTextView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/labelStatusTextView"
+                    app:layout_constraintTop_toTopOf="@+id/labelStatusTextView"
+                    tools:text="Active" />
+
+                <TextView
+                    android:id="@+id/labelExpireDateTextView"
+                    style="@style/Wrap"
+                    android:layout_margin="@dimen/menu_top_margin"
+                    android:text="@string/my_account_subscription_end_date_with_colon"
+                    android:textAppearance="@style/BoldTextAppearance"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/labelStatusTextView" />
+
+                <TextView
+                    android:id="@+id/expireDateTextView"
+                    style="@style/Wrap.Width0dp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="end"
+                    app:layout_constraintBottom_toBottomOf="@+id/labelExpireDateTextView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/labelExpireDateTextView"
+                    app:layout_constraintTop_toTopOf="@+id/labelExpireDateTextView"
+                    tools:text="17-10-2022" />
+
+                <Button
+                    android:id="@+id/renewButton"
+                    style="@style/Wrap"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="@dimen/menu_top_margin"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="@string/my_account_subscription_renew"
+                    app:layout_constraintEnd_toEndOf="@+id/statusTextView"
+                    app:layout_constraintStart_toStartOf="@+id/labelStatusTextView"
+                    app:layout_constraintTop_toBottomOf="@+id/expireDateTextView" />
+
+                <Button
+                    android:id="@+id/logoutButton"
+                    style="@style/Wrap"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/my_account_subscription_logout"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="@+id/statusTextView"
+                    app:layout_constraintStart_toStartOf="@+id/labelExpireDateTextView"
+                    app:layout_constraintTop_toBottomOf="@+id/renewButton" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/Wrap"
+                    android:layout_margin="@dimen/menu_top_margin"
+                    android:text="@string/info_user_id"
+                    android:textAppearance="@style/BoldTextAppearance"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/renewButton" />
+
+                <TextView
+                    android:id="@+id/appVersionTextView"
+                    style="@style/Wrap.Width0dp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="end"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView2"
+                    app:layout_constraintTop_toTopOf="@+id/textView2"
+                    tools:text="123456" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    style="@style/Wrap"
+                    android:layout_margin="@dimen/menu_top_margin"
+                    android:text="@string/info_firmware_version"
+                    android:textAppearance="@style/BoldTextAppearance"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/textView2" />
+
+                <TextView
+                    android:id="@+id/firmwareTextView"
+                    style="@style/Wrap.Width0dp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="end"
+                    app:layout_constraintBottom_toBottomOf="@+id/textView3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView3"
+                    app:layout_constraintTop_toTopOf="@+id/textView3"
+                    tools:text="STT9" />
+
+                <Button
+                    android:id="@+id/updateButton"
+                    style="@style/Wrap"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="@dimen/menu_top_margin"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:text="@string/info_check_update"
+                    app:layout_constraintEnd_toEndOf="@+id/firmwareTextView"
+                    app:layout_constraintStart_toStartOf="@+id/textView3"
+                    app:layout_constraintTop_toBottomOf="@id/textView3" />
+
+                <ProgressBar
+                    android:id="@+id/updateProgress"
+                    style="@style/Wrap"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="@+id/updateButton"
+                    app:layout_constraintEnd_toEndOf="@+id/updateButton"
+                    app:layout_constraintStart_toStartOf="@+id/updateButton"
+                    app:layout_constraintTop_toTopOf="@+id/updateButton" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="@style/Wrap"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</layout>

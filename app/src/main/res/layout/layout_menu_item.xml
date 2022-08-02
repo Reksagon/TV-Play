@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/menuItemContainer"
+        style="@style/Wide"
+        android:layout_margin="2dp"
+        tools:background="@null">
+
+        <ImageView
+            android:id="@+id/iconImageView"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_margin="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/ic_outline_account_circle_24" />
+
+        <TextView
+            android:id="@+id/nameTextView"
+            style="@style/Wrap.Width0dp"
+            android:layout_marginStart="20dp"
+            android:textAppearance="@style/BoldTextAppearance"
+            app:layout_constraintBottom_toBottomOf="@+id/iconImageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iconImageView"
+            app:layout_constraintTop_toTopOf="@+id/iconImageView"
+            tools:text="My Account" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/Wide"
+        tools:context=".presentation.screen.MainActivity">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            style="@style/Wrap.Width0dp"
+            android:layout_margin="30dp"
+            android:focusable="false"
+            android:textAppearance="@style/BoldTextAppearance"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Subscription isn't active!" />
+
+        <TextView
+            android:id="@+id/messageTextView"
+            style="@style/Wrap.Width0dp"
+            android:layout_margin="30dp"
+            android:focusable="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+            tools:text="Activate your subscription. Enter activation code:" />
+
+        <EditText
+            android:id="@+id/activationCodeEditText"
+            style="@style/Wrap.Width0dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="30dp"
+            android:hint="@string/my_account_enter_your_activation_code"
+            android:textColorHint="@color/edit_text_hint_color"
+            app:layout_constraintEnd_toEndOf="@+id/messageTextView"
+            app:layout_constraintStart_toStartOf="@+id/messageTextView"
+            app:layout_constraintTop_toBottomOf="@+id/messageTextView"
+            tools:ignore="Autofill" />
+
+        <TextView
+            android:id="@+id/errorTextView"
+            style="@style/Wrap.Width0dp"
+            android:layout_margin="30dp"
+            android:focusable="false"
+            android:gravity="center"
+            android:textColor="@color/red_color"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/activationCodeEditText"
+            tools:text="Error activating subscription:"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/submitButton"
+            style="@style/Wrap"
+            android:layout_marginTop="20dp"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:text="@string/submit"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/errorTextView" />
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/submitButtonProgress"
+            style="@style/Wrap"
+            android:indeterminate="true"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@+id/submitButton"
+            app:layout_constraintEnd_toEndOf="@+id/submitButton"
+            app:layout_constraintStart_toStartOf="@+id/submitButton"
+            app:layout_constraintTop_toTopOf="@+id/submitButton"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/logoutButton"
+            style="@style/Wrap.Width0dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/logout"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/submitButton"
+            app:layout_constraintStart_toStartOf="@+id/submitButton"
+            app:layout_constraintTop_toBottomOf="@+id/submitButton" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

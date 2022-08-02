@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/channelItemContainer"
+        style="@style/Wide"
+        android:focusable="true"
+        android:layout_margin="2dp">
+
+        <TextView
+            android:id="@+id/numberTextView"
+            style="@style/Wrap"
+            android:layout_marginStart="10dp"
+            app:layout_constraintBottom_toBottomOf="@+id/iconImageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/iconImageView"
+            tools:text="001" />
+
+        <ImageView
+            android:id="@+id/iconImageView"
+            android:layout_width="48dp"
+            android:layout_height="28dp"
+            android:layout_margin="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/numberTextView"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/ic_baseline_live_tv_24" />
+
+        <ImageView
+            android:id="@+id/favoriteImageView"
+            android:layout_width="48dp"
+            android:layout_height="28dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ic_baseline_star_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nameTextView"
+            style="@style/Wrap.Width0dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="3dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/BoldTextAppearance"
+            app:layout_constraintBottom_toBottomOf="@+id/iconImageView"
+            app:layout_constraintEnd_toStartOf="@+id/lockImageView"
+            app:layout_constraintStart_toEndOf="@+id/iconImageView"
+            app:layout_constraintTop_toTopOf="@+id/iconImageView"
+            tools:text="Animal planet 4K" />
+
+        <ImageView
+            android:id="@+id/lockImageView"
+            style="@style/Wrap"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ic_baseline_lock_24"
+            app:layout_constraintBottom_toBottomOf="@+id/favoriteImageView"
+            app:layout_constraintEnd_toStartOf="@+id/favoriteImageView"
+            app:layout_constraintTop_toTopOf="@+id/favoriteImageView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

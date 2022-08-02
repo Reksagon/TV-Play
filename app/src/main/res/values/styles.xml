@@ -1,0 +1,109 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="MatchParent" tools:ignore="UnusedResources">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Wrap" tools:ignore="UnusedResources">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Wide" tools:ignore="UnusedResources">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Tall" tools:ignore="UnusedResources">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Wrap.Height0dp" tools:ignore="UnusedResources">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="Wrap.Width0dp">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Wide.Height0dp" tools:ignore="UnusedResources">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="Tall.Width0dp" tools:ignore="UnusedResources">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="MatchParent.0dp" tools:ignore="UnusedResources">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="BaseDialog" parent="android:Theme.Material.Dialog.Alert">
+        <item name="android:background">@color/tab_press_color</item>
+        <!--        <item name="android:windowMinWidthMajor">90%</item>-->
+        <!--        <item name="android:windowMinWidthMinor">90%</item>-->
+    </style>
+
+    <style name="BaseTextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="BoldTextAppearance" parent="BaseTextAppearance">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ClickableTextAppearance" parent="BaseTextAppearance">
+        <item name="android:textColor">@drawable/selector_textview</item>
+    </style>
+
+    <style name="ClickableTextView" parent="@android:style/Widget.TextView">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textAppearance">@style/ClickableTextAppearance</item>
+    </style>
+
+    <style name="TabTextView" parent="BaseTextAppearance">
+        <item name="android:layout_width">280dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="TabTextView.Selected">
+        <item name="android:background">@color/tab_press_color</item>
+    </style>
+
+    <style name="BaseEditText" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/selector_edit_text</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="BaseButton" parent="Widget.AppCompat.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/selector_button</item>
+    </style>
+
+    <style name="TrackSelectionDialogThemeOverlay" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="windowNoTitle">false</item>
+    </style>
+
+    <style name="LogoImageView">
+        <item name="android:layout_width">@dimen/logo_size</item>
+        <item name="android:layout_height">@dimen/logo_size</item>
+        <item name="android:src">@mipmap/ic_launcher</item>
+    </style>
+
+</resources>

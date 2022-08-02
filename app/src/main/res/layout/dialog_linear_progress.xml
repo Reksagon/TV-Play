@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="title"
+            type="androidx.databinding.ObservableField&lt;String&gt;" />
+
+        <variable
+            name="progress"
+            type="androidx.databinding.ObservableInt" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/Wrap"
+        tools:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            style="@style/Tall"
+            android:layout_margin="25dp"
+            android:gravity="center"
+            android:text="@{title}"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Download apk..." />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/progressLinearProgressIndicator"
+            style="@style/Wide"
+            android:layout_height="40dp"
+            android:layout_margin="20dp"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="@{progress}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            style="@style/Wrap"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:text="@string/cancel"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/progressLinearProgressIndicator" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

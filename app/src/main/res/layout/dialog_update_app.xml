@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/Wide"
+        tools:context=".presentation.screen.MainActivity">
+
+        <TextView
+            android:id="@+id/textView5"
+            style="@style/Wrap"
+            android:layout_margin="30dp"
+            android:text="@string/info_old_version"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/oldVersionTextView"
+            style="@style/Wrap.Width0dp"
+            android:layout_margin="30dp"
+            android:gravity="end"
+            app:layout_constraintBottom_toBottomOf="@+id/textView5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView5"
+            app:layout_constraintTop_toTopOf="@+id/textView5"
+            tools:text="1.0.0" />
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/Wrap.Width0dp"
+            android:layout_margin="30dp"
+            android:text="@string/info_new_version"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/newVersionTextView"
+            style="@style/Wrap.Width0dp"
+            android:layout_margin="30dp"
+            android:gravity="end"
+            app:layout_constraintBottom_toBottomOf="@+id/textView6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView5"
+            app:layout_constraintTop_toTopOf="@+id/textView6"
+            tools:text="1.0.1" />
+
+        <Button
+            android:id="@+id/updateButton"
+            style="@style/Wrap"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/update"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView6" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
